@@ -1,0 +1,13 @@
+{
+  "name": "rtc",
+  "version": "0.0.1",
+  "description": "A simple real-time chat application for enterprise use.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "tsc && node lib/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect lib/app.js"
+  },
+  "author": "Dayton Bobbitt",
+  "license": "MIT"
+}
